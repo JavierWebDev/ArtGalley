@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="js/app.js" defer></script>
+    <title>Art Gallery</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="cont-navbar elements-between">
+                <div>
+                    <h1>ArtGallery</h1>
+                </div>
+        
+                <div class="cont-links">
+                    <a class="nav-link" href="#destacadas">Destacados</a>
+                    <a class="nav-link" href="#comentarios">Comentarios</a>
+                    <a class="nav-link" href="#">Eventos</a>
+                    <a class="nav-link" href="#">Visitanos</a>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <div class="slider">
+                <button class="prev-slide btn-slider">
+                    <box-icon name='chevron-left' color='#8a2f62'></box-icon>
+                </button>
+        
+                <div class="slider-container">
+                    <div class="slider-content">
+                        <div class="slide slide1">
+                            <h2 class="slide-title">Art Gallery</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eveniet porro minus iure reprehenderit!</p>
+                        </div>
+                        <div class="slide slide2">
+                            <h2 class="slide-title">Obras De Arte</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eveniet porro minus iure reprehenderit!</p>
+                        </div>
+                        <div class="slide slide3">
+                            <h2 class="slide-title">La Mejor Coleccion</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eveniet porro minus iure reprehenderit!</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <button class="next-slide btn-slider">
+                    <box-icon name='chevron-right' color='#8a2f62'></box-icon>
+                </button>
+            </div>
+        </section>
+        
+        <div class="divider"></div>
+    </header>
+
+    
+    <main>
+        <section id="destacadas">
+            <h2 class="secondary-title">Obras Destacadas</h2>
+
+            <div class="cont-featured">
+                <div class="work-card card1">
+                    <div class="card-info card-info_hidden">
+                        <h3>La Gioconda</h3>
+                        <p>También conocida como Mona Lisa, es la obra con más renombre de Leonardo Da Vinci y el cuadro más famoso del mundo.</p>
+                    </div>
+                </div>
+
+                <div class="work-card card2">
+                    <div class="card-info card-info_hidden">
+                        <h3>Guernica</h3>
+                        <p>Lo primero que sorprende del Guernica es su extraordinario tamaño. Los 3,49 metros de altura por los 7,77 metros de ancho lo convierten en uno de los cuadros más grandes pintados por el artista malagueño</p>
+                    </div>
+                </div>
+
+                <div class="work-card card3">
+                    <div class="card-info card-info_hidden">
+                        <h3>La Noche Estrellada</h3>
+                        <p>La obra maestra del holandés fue pintada en 1889 por Van Gogh en el manicomio de Saint-Rémy, donde se recluyó hacia el final de su vida</p>
+                    </div>
+                </div>
+
+                <div class="work-card card4">
+                    <div class="card-info card-info_hidden">
+                        <h3>La Ultima Cena</h3>
+                        <p>Es una pintura mural realizada entre los años 1495 y 1498 por el multifacético Leonardo da Vinci (1452-1519)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comentarios">
+            <h2 class="secondary-title_comments">Comentarios</h2>
+
+            <div class="cont-comments">
+                <div class="card-comment">
+                    <img class="img-user" src="/storage/img/user.png">
+
+                    <p>Jolhver Pardo</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolorem ducimus, adipisci quo maxime dolore minus rerum similique!</p>
+                </div>
+            </div>
+
+            <div class="cont-form">
+                <form class="form-con">
+                    <label for="inputComment">Añade tu comentario</label>
+                    <textarea id="inputComment" cols="30" rows="10"></textarea>
+                    <button>Send!</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div>
+            <box-icon name='copyright' color='#ffffff' ></box-icon>
+            <p>CampusLands. Derechos reservados </p>
+        </div>
+
+        <div>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy</a>
+        </div>
+    </footer>
+
+</body>
+</html>
