@@ -142,15 +142,15 @@ a {
 }
 
 .slide1 {
-    background-image: url("/storage/img/img1.jpg");
+    background-image: url("/ArtGalley/storage/img/img1.jpg");
 }
 
 .slide2 {
-    background-image: url("/storage/img/img2.jpg");
+    background-image: url("/ArtGalley/storage/img/img2.jpg");
 }
 
 .slide3 {
-    background-image: url("/storage/img/img3.jpg");
+    background-image: url("/ArtGalley/storage/img/img3.jpg");
 }
 
 .slide-title {
@@ -187,20 +187,20 @@ a {
 }
 
 .card1 {
-    background-image: url("/storage/img/monalisa.jpg");
+    background-image: url("/ArtGalley/storage/img/monalisa.jpg");
 }
 
 .card2 {
-    background-image: url("/storage/img/guernica.jpg");
+    background-image: url("/ArtGalley/storage/img/guernica.jpg");
     background-position: center;
 }
 
 .card3 {
-    background-image: url("/storage/img/nocheestrellada.jpg");
+    background-image: url("/ArtGalley/storage/img/nocheestrellada.jpg");
 }
 
 .card4 {
-    background-image: url("/storage/img/santacena.jpg");
+    background-image: url("/ArtGalley/storage/img/santacena.jpg");
     background-position: center;
 }
 
